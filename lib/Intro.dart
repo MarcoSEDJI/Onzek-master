@@ -29,7 +29,7 @@ class Intro extends StatelessWidget {
   Widget build(BuildContext context) {
     bool isLastScreen = currentScreenNo >= noOfScreen - 1;
     return Container(
-      padding: EdgeInsets.only(left: 10, right: 10, top: 105),
+      padding: EdgeInsets.only(left: 10, right: 10, top: 100),
       child: Column(
         children: [
           Column(
